@@ -33,8 +33,7 @@ In this example, we watch for changes both to the charging status (whether or no
 ```js
 navigator.getBattery().then(function(battery) {
   function updateAllBatteryInfo(){
-    updateChargeInfo();
-    updateLevelInfo();
+    
     updateChargingInfo();
     updateDischargingInfo();
   }
